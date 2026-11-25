@@ -1,1 +1,3 @@
 # sql-select-fundamentals
+¿Por qué es mala práctica usar SELECT * en producción? Al ejecutar una consulta con *, la misma trae todo el contenido de la tabla solicitada, por lo que afecta el rendimiento del sistema. Es preferible usar parámetros específicos para traer consultas más acotadas.
+¿Por qué son importantes los alias para un stakeholder no técnico?  Los alias son importantes para reconocer el tipo de información que se está visualizando y responder rápidamente a las preguntas requeridas. Ejemplo: total_amount  no es reconocible, pero con el comando AS se puede presentar como monto_total y cualquier persona del área de finanzas ya lo puede interpretar directamente.
